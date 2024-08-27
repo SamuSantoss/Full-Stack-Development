@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Prova</title>
+</head>
+<body>
+    <h1>Formulário de Exemplo</h1>
+    <form>
+        
+        <div >
+            <label for="textInput">Campo de Texto:</label>
+            <input type="text" id="textInput" name="textInput" required placeholder="Insira seu texto">
+        </div>
+
+        <div >
+            <label for="passwordInput">Senha:</label>
+            <input type="password" id="passwordInput" name="passwordInput" required placeholder="*****">
+        </div>
+
+        <div >
+            <label for="emailInput">E-mail:</label>
+            <input type="email" id="emailInput" name="emailInput" required placeholder="exemplo@email.com">
+        </div>
+
+      
+        <div >
+            <p>Tipos de comida favorita:</p>
+            <label><input type="checkbox" name="option" value="option1"> Italiana</label>
+            <label><input type="checkbox" name="option" value="option2"> Coreana</label>
+            <label><input type="checkbox" name="option" value="option3"> Chinesa</label>
+            <label><input type="checkbox" name="option" value="option4"> Brasileira</label>
+            <label><input type="checkbox" name="option" value="option5"> Árabe</label>
+        </div>
+
+        
+        <div >
+            <p>Escolha uma opção:</p>
+            <label><input type="radio" name="radioOption" value="option1" required> Opção 1</label>
+            <label><input type="radio" name="radioOption" value="option2"> Opção 2</label>
+        </div>
+
+        
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+</body>
+</html>
