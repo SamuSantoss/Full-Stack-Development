@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: white;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    background: #2575fc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+button:hover {
+    background: #1a5cc8;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: 0.3s;
+    text-align: center;
+}
+li:hover {
+    background: #f1f1f1;
+}
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+.remove-button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.remove-button:hover {
+    background: #cc0000;
+}
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
